@@ -5,8 +5,7 @@ import  time
 lirik = [
     "halo,nama saya raffi",
     "saya kelas XI RPL",
-    "alamat saya adalah tukum",
-    "jancok"
+    "alamat saya adalah tukum"
 ]
 
 waktu = [
@@ -22,4 +21,5 @@ for sem in range(len(lirik)):
         sys.stdout.flush()
         time.sleep(waktu[sem])
         print(end="")
+
     print()
